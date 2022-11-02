@@ -4,26 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#2C2C2C"
-    >
+    android:background="#2C2C2C">
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="383dp"
-        android:layout_height="146dp"
+        android:id="@+id/contactOutline"
+        android:layout_width="389dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/contact_rectangle" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/outline_rectangle" />
 
     <TextView
         android:id="@+id/phoneTextView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="26dp"
+        android:fontFamily="serif-monospace"
         android:text="PHONE"
-        android:textColor="#FFFFFF"
+        android:textColor="#f5f5f5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emailTextView" />
 
@@ -32,8 +37,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="26dp"
+        android:fontFamily="serif-monospace"
         android:text="EMAIL"
-        android:textColor="#FFFFFF"
+        android:textColor="#f5f5f5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/departmentTextView" />
 
@@ -42,14 +48,15 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:fontFamily="More Fonts..."
+        android:fontFamily="serif-monospace"
         android:text="NAME"
         android:textAlignment="center"
-        android:textColor="#E2E4E6"
+        android:textAllCaps="false"
+        android:textColor="#f5f5f5"
         android:textSize="25dp"
-        android:textStyle="italic"
+        android:textStyle="bold|italic"
         android:typeface="monospace"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,20 +67,24 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="26dp"
-        android:layout_marginBottom="26dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="serif-monospace"
         android:text="OFFICE"
-        android:textColor="#FFFFFF"
+        android:textColor="#f5f5f5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/phoneTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/phoneTextView"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/titleTextView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="26dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="serif-monospace"
         android:text="TITLE"
-        android:textColor="#FFFFFF"
+        android:textColor="#f5f5f5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nameTextView" />
 
@@ -82,8 +93,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="26dp"
+        android:fontFamily="serif-monospace"
         android:text="DEPARTMENT"
-        android:textColor="#FFFFFF"
+        android:textColor="#f5f5f5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
 
