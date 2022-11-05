@@ -19,5 +19,9 @@ class ResearchAdapter(val projects: List<ResearchProject>) : RecyclerView.Adapte
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+        val project = projects[position]
+        holder.binding.researchNameTextView.text = project.name
+        holder.binding.researchDescriptionTextView.text = project.description
+        holder.binding.researchMembersTextView.text = project.members
     }
 }

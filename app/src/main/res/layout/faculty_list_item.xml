@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/contactOutline"
-        android:layout_width="389dp"
-        android:layout_height="155dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -28,7 +28,7 @@
         android:layout_marginStart="26dp"
         android:fontFamily="serif-monospace"
         android:text="PHONE"
-        android:textColor="#f5f5f5"
+        android:textColor="@android:color/secondary_text_dark"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emailTextView" />
 
@@ -39,7 +39,7 @@
         android:layout_marginStart="26dp"
         android:fontFamily="serif-monospace"
         android:text="EMAIL"
-        android:textColor="#f5f5f5"
+        android:textColor="@android:color/secondary_text_dark"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/departmentTextView" />
 
@@ -48,19 +48,19 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:fontFamily="serif-monospace"
         android:text="NAME"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="#f5f5f5"
+        android:textColor="@android:color/secondary_text_dark"
         android:textSize="25dp"
         android:textStyle="bold|italic"
         android:typeface="monospace"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/contactOutline" />
 
     <TextView
         android:id="@+id/officeTextView"
@@ -70,11 +70,10 @@
         android:layout_marginBottom="16dp"
         android:fontFamily="serif-monospace"
         android:text="OFFICE"
-        android:textColor="#f5f5f5"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@android:color/secondary_text_dark"
+        app:layout_constraintBottom_toBottomOf="@+id/contactOutline"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/phoneTextView"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/phoneTextView" />
 
     <TextView
         android:id="@+id/titleTextView"
@@ -84,7 +83,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="serif-monospace"
         android:text="TITLE"
-        android:textColor="#f5f5f5"
+        android:textColor="@android:color/secondary_text_dark"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nameTextView" />
 
@@ -95,7 +94,7 @@
         android:layout_marginStart="26dp"
         android:fontFamily="serif-monospace"
         android:text="DEPARTMENT"
-        android:textColor="#f5f5f5"
+        android:textColor="@android:color/secondary_text_dark"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
 

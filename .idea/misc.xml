@@ -6,13 +6,14 @@
         <entry key="app/src/main/res/drawable/contact_rectangle.xml" value="0.143" />
         <entry key="app/src/main/res/drawable/faculty_1.xml" value="0.173" />
         <entry key="app/src/main/res/drawable/faculty_box.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/outline_rectangle.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.361981201171875" />
-        <entry key="app/src/main/res/layout/faculty_list_item.xml" value="0.4235076904296875" />
+        <entry key="app/src/main/res/layout/faculty_list_item.xml" value="0.40680694580078125" />
         <entry key="app/src/main/res/layout/fragment_faculty.xml" value="0.35643115942028986" />
-        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.37100025121716484" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.31969451904296875" />
         <entry key="app/src/main/res/layout/fragment_research.xml" value="0.35643115942028986" />
         <entry key="app/src/main/res/layout/homefragment.xml" value="0.2740036231884058" />
-        <entry key="app/src/main/res/layout/research_list_item.xml" value="0.38269927536231885" />
+        <entry key="app/src/main/res/layout/research_list_item.xml" value="0.31341705322265623" />
       </map>
     </option>
   </component>
